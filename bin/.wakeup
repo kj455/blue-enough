@@ -1,3 +1,0 @@
-# If the Homebrew path is different, replace it with the correct path found by the following command:
-# `which blueutil`
-/opt/homebrew/bin/blueutil -p 1

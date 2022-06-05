@@ -18,17 +18,10 @@ The reason for installing Homebrew is that this script will install following pa
 git clone git@github.com:kj455/blue-enough.git
 ```
 
-### Execute script
-You will be asked to grant permissions to `sleepwatcher` while executing the first command, please follow the instructions to grant them.
+### Execute scripts
+You will be asked to grant permissions to `sleepwatcher` while executing the commands, please follow the instructions to grant them.
 ```bash
-bash blue-enough/init.sh
+cd blue-enough
+bash install.sh
+bash activate.sh
 ```
-
-```bash
-bash blue-enough/activate.sh
-```
-
-## 🎶 Notes
-If the path for the libraries installed by Homebrew has been changed from the default, you will need to rewrite the contents of the following file. (See inside the files for details.)
-- `bin/.sleep`
-- `bin/.wakeup`
