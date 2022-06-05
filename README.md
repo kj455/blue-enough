@@ -25,3 +25,8 @@ cd blue-enough
 bash install.sh
 bash activate.sh
 ```
+
+## 🔽 Uninstall
+```bash
+bash uninstall.sh
+```
