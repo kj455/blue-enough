@@ -19,9 +19,13 @@ git clone git@github.com:kj455/blue-enough.git
 ```
 
 ### Execute script
+You will be asked to grant permissions to `sleepwatcher` while executing the first command, please follow the instructions to grant them.
 ```bash
-cd blue-enough
-bash install.sh #　Run it in any shell you like.
+bash blue-enough/init.sh
+```
+
+```bash
+bash blue-enough/activate.sh
 ```
 
 ## 🎶 Notes
